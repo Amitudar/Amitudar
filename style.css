@@ -1,0 +1,240 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ 
+}
+body{
+    /* background-image: url(image-asset.jpeg) ; */
+    display: block;
+    /* background-blend-mode: multiply;  */
+   
+    
+}
+/* .navbar ul li a:hover{
+    color: rgb(11, 11, 11);
+background-color: rgb(247, 241, 241);
+} */
+ul{
+    display: flex;
+    font-size: 20px;
+}
+.navbar {
+
+    margin-top: 0px;
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    display: flex;
+    float: right; 
+    position: relative;
+    top: 0px;
+}
+.logo{
+    l
+}
+.content{
+    opacity: 0.4;    
+}
+li {
+   
+    color: #fff;
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+#content{
+    margin-top: 200px;
+    display: block;
+    text-align: center;
+    font-family:  Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 68px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 0.0588235em;
+    
+}
+
+#para{
+    font-family:  proxima-nova;
+  font-size: 24px;
+        }
+.button{
+    font-weight: 700;
+    color: #fff;
+    padding: 20px;
+    margin: 35px;
+    font-size: 25px;
+    border-radius: 45px;
+    text-decoration: none;
+    background-color: rgb(12, 226, 209);
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    font-size: 25px;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.center{
+    opacity: 0.6;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url(image-asset.jpeg) center no-repeat;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 2;
+    
+    top: 0px;
+    left: 0px;}
+
+  
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+            
+      }
+      
+      .image1 {
+        margin-top: -300px;
+        margin-left: 300px;
+        max-width: 100%;
+        max-height:100%;
+        
+      }
+      
+      .text1{   
+        width: 500px; 
+        text-align: center;
+        font-family: serif;
+        Column-gap: 5px;
+        margin-top: -400px;
+        margin-left: 150px;
+        /* margin-top: 10px; */
+        font-size: 35px;
+        padding:3px 50px;
+        
+      }
+
+    
+.contain{ 
+  /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+  
+}
+.text2{
+  /* border: 2px solid red; */
+    width: 500px;
+    height: 500px; 
+    text-align: center;
+    font-family: serif;
+    Column-gap: 5px;
+    margin-top: 100px;
+    margin-left: 100px;
+    /* margin-top: 10px; */
+    /* font-size: 45px; */
+    padding:3px;
+  font-size: 35px;
+  }
+
+
+
+  #right    {
+    display: flex;
+    align-items: right   ;
+    justify-content: center;
+  }
+
+    .image2{ 
+
+        max-width: 100%;
+        /* max-height:100%; */
+
+        /* .contain::after {
+            content: "";
+            clear: both;
+            display: table; */
+/*     
+    display: flex;
+    margin-top: 50px;
+    float: right; */
+  /* margin-right: -100px;
+    max-width: 100%;
+    max-height:100%;
+    Column-gap: 5px;  */
+}
+
+.containerss {
+    display: flex;
+    align-items: center;
+    justify-content: center
+        
+  }
+  .image4{
+
+    margin-top: 80px;         
+    margin-left: 100px;
+    max-width: 55%;
+    max-height:50%;
+  }
+
+.text5{
+  width: 500px; 
+  text-align: center;
+  font-family: serif;
+  Column-gap: 5px;
+  margin-top: -400px;
+  margin-left: 1200px;
+  /* margin-top: 10px; */
+  font-size: 35px;
+  padding:3px 50px;
+  
+}
+  /* border: 2px solid red; 
+        display: flex;
+        text-align: center;
+        font-family: serif;
+        /* Column-gap: 5px; */
+        /* margin-top: -400px; */
+        /* margin-left: 100px; */
+        /* margin-top: 10px; */
+       /* font-size: 22px;
+        padding:3px 50px;
+        height: 300px; */
+        /* width: 300px; */
+        
+      
+      .container img {
+        margin-left: -600px;
+        /* border: 2px solid red; */
+        height: 400px;
+        margin-top: 80px;
+      }
+
+      footer{
+color: gray;
+opacity: 0.4px  ;
+margin-bottom: 100px;
+font-size: 35px;
+      }
+
+/* 
+      .container {
+        display: flex;
+        align-items: center;
+        justify-content:center;
+      } */
+    
+     
